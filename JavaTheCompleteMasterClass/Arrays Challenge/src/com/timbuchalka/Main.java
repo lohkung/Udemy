@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class Main {
     private static Scanner scanner = new Scanner(System.in);
+   
 
     public static void main(String[] args) {
 	    // Create a program using arrays that sorts a list of integers in descending order.
@@ -22,6 +23,7 @@ public class Main {
         int[] myIntegers = getIntegers(5);
         int[] sorted = sortIntegers(myIntegers);
         printArray(sorted);
+        
 
     }
 

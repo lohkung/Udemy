@@ -25,6 +25,9 @@ public class Demo {
 
         placesToVisit.remove(4);
         printList(placesToVisit);
+        
+        addInOrder(placesToVisit, "xNK48");
+        printList(placesToVisit);
 
     }
 
@@ -37,7 +40,7 @@ public class Demo {
     }
 
     private static boolean addInOrder(LinkedList<String> linkedList, String newCity) {
-        ListIterator<String> stringListIterator = linkedList.listIterator();
+    	ListIterator<String> stringListIterator = linkedList.listIterator();
 
         while(stringListIterator.hasNext()) {
             int comparison = stringListIterator.next().compareTo(newCity);
@@ -57,6 +60,8 @@ public class Demo {
         }
 
         stringListIterator.add(newCity);
+        return true;
+        
     }
 
 

@@ -37,6 +37,7 @@ public class Demo {
             System.out.println("Now visiting " + i.next());
         }
         System.out.println("=========================");
+        
     }
 
     private static boolean addInOrder(LinkedList<String> linkedList, String newCity) {
@@ -56,6 +57,7 @@ public class Demo {
                 return true;
             } else if(comparison < 0) {
                 // move on next city
+            	return true;
             }
         }
 

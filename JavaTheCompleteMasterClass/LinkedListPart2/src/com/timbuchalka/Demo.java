@@ -36,8 +36,7 @@ public class Demo {
         while(i.hasNext()) {
             System.out.println("Now visiting " + i.next());
         }
-        System.out.println("=========================");
-        
+        System.out.println("=========================");   
     }
 
     private static boolean addInOrder(LinkedList<String> linkedList, String newCity) {

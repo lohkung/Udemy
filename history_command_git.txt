@@ -1,0 +1,377 @@
+    1  git config --global user.name "loh"
+    2  git config --global user.email lohkung@hotmail.com
+    3  git config --list
+    4  git help
+    5  git help config
+    7  git init
+    9  git add new1
+   10  git clone git://https://github.com/lohkung/work
+   11  git status
+   12  git diff
+   13  git status
+   14  git clone git://github.com/lohkung/work
+   15  git status
+   16  git clone git://github.com/lohkung/work.git git2
+   17  git log
+   18  git config --list
+   19  git status
+   20  git add new1.html
+   21  git add "new1.html"
+   22  git status
+   23  git add new1.html
+   24  git status
+   25  git branch
+   26  git branch bh
+   27  git branch
+   28  git log
+   29  git add n1
+   30  git status
+   32  git status
+   33  git checkout git2
+   34  git branch
+   35  git branch
+   36  git branch
+   37  git branch
+   38  git remote add origin https://github.com/lohkung/LOHKUNG.git
+   39  git init
+   40  git add README.md
+   41  git branch
+   42  git status
+   44  git add README.md
+   46  git remote add origin https://github.com/lohkung/LOHKUNG.git
+   48  git remote -v
+   49  git push -u origin master
+   50  git remote add origin git@github.com:lohkung/LOHKUNG.git
+   51  git push -u origin master
+   53  git push 
+   54  git push -u origin master
+   56  git status
+   57  git add aa.x
+   58  git add *
+   60  git commit -m "web-train"
+   61  git push -u origin master
+   62  git push
+   65  git add test.html 
+   66  git commit test.html 
+   67  git commit test.htm -m "for test commit"
+   68  git commit test.html -m "for test commit"
+   69  git push -u origin master
+   70  git push -u origin master
+   71  git push -u origin master
+   72  git branch
+   73  git status
+   74  git log
+   75  git fetch
+   77  git fetch
+   78  git status
+   79  git merge origin/master 
+   81  git status
+   82  git conflig
+   83  git conflict
+   84  git pull
+   85  git commit
+   86  git merge origin/master 
+   92  git add PHP\ Real\ World\ AJAX\ and\ Report/
+   97  git status
+   98  git clone https://github.com/lohkung/Udemy.git
+  100  git clone https://github.com/lohkung/Udemy.git
+  102  git clone https://github.com/lohkung/Udemy.git
+  106  git status
+  109  ssh -T git@github.com
+  110  git clone git@github.com:lohkung/Udemy.git
+  111  git clone git@github.com:lohkung/Udemy.git
+  112  git clone git@github.com:lohkung/Udemy.git
+  113  git clone git@github.com:lohkung/Udemy.git
+  117  git status
+  118  cat .git/info/exclude 
+  119  git status
+  120  git add
+  121  git add -a JavaTheCompleteMasterClass/
+  122  git add -A JavaTheCompleteMasterClass/
+  123  git add -A 
+  124  git status
+  125  git commit -m "first add to repo"
+  126  git push git@github.com:lohkung/Udemy.git master
+  127  git status
+  128  git status
+  130  git clone git@github.com:lohkung/Udemy.git Udemy2
+  132  git clone git@github.com:lohkung/Udemy.git Udemy2
+  135  git status
+  136  git add -A
+  137  git status
+  138  git commit -a -m "add by U2"
+  139  git push origin master 
+  141  git status
+  142  git pull origin 
+  144  git pull
+  146  git status
+  147  git add -a -m "add 2Practice"
+  148  git add -A
+  149  git status
+  150  git commit -m "add 2 Practice"
+  151  git status
+  152  git push origin master;
+  153  git status
+  154  git status
+  156  git chekout src/com/timbuchalka/Customer.java
+  157  git status
+  158  git commit -a -m "modify#1"
+  159  git status
+  160  git push
+  161  git status
+  162  git status
+  163  git commit -a origin master
+  164  git commit -a -m "modify#2"
+  166  git status
+  167  git push origin master 
+  168  gitstat
+  169  git status
+  170  git status
+  171  git add branch master
+  172  git add origin master
+  173  git add -A
+  174  git status
+  175  git commit -a -m "update_src"
+  176  git status
+  177  git pull git@github.com:lohkung/Udemy.git
+  178  git staus
+  179  git status
+  180  git status
+  181  git push git@github.com:lohkung/Udemy.git
+  182  git status
+  183  git status
+  184  git status
+  185  git add -a 
+  186  git add -a origin master
+  187  git add -A
+  188  git add -A origin master
+  189  git commit -a -u -m "commit_test"
+  190  git status
+  191  git commit -a -u "commit LLPart3"
+  192  git commit -A -u "commit LLPart3"
+  193  git commit -a -u -m "commit LLPart3"
+  194  git status
+  195  git commit -a -m"addLLPart3"
+  196  git status
+  197  git add
+  199  git add -a
+  200  git add -A
+  201  git status
+  202  git add --a --m "addLL"
+  203  git add -a --m "addLL"
+  204  git add -a -m "addLL"
+  205  git add -A -m "addLL"
+  206  git add -A -u -m "addLL"
+  207  git add -A
+  208  git status
+  209  git commit -A -m "test_commit"
+  210  git add -a
+  211  git add -A
+  212  git commit -A -m "commit3"
+  213  git commit -a -m "commit4" 
+  214  git push origin master
+  215  git status
+  216  git add -a -m "new_add"
+  217  git status
+  218  git status
+  219  git add -a 
+  220  git add -A
+  221  git commit -a -m "commit Interface"
+  222  git status
+  223  git push origin master
+  224  git status
+  225  git add  - A 
+  226  git add  -A
+  227  git status
+  228  git commit -a -m "commit_innerclass"
+  229  git status
+  230  git push origin master
+  231  git status
+  232  git status
+  233* git commit -a -m "add-mi
+  234  git commit -a -m "add src"
+  235  git status
+  236  git add -A
+  237  git staus
+  238  git commit -a -m "add source"
+  239  git statue
+  240  git push origin master 
+  241  git status
+  242  git status
+  243  git add -A
+  244  git status
+  245  git status
+  246  git commit -a -m "add for abstract class"
+  247  git status
+  248  git status
+  251  git status
+  252  git log
+  253  git remote -v
+  254  git remote
+  255  git remote show origin
+  256  git remote show
+  257  git remote add lk https://github.com/lohkung/backup
+  258  git remote show
+  259  git remote -v
+  262  git init myproject
+  264  git add -a -m "initial file to git"
+  265  git add -A -m "initial file to git"
+  266  git add -A
+  267  git commit -A -m "initial file to git"
+  268  git commit -a -m "initial file to git"
+  269  git status
+  270  git status
+  271  git checkout master 
+  272  git status
+  273  git add -A
+  274  git status
+  275  git commit -a -m "update file"
+  276  git status
+  277  git push origin master
+  278  git log
+  279  git checkout 6dfe192
+  280  git status
+  281  git commit -a -m "revert to file"
+  282  git status
+  283  git push
+  284  git push origin master
+  285  git --versiton
+  286  git --version
+  287  git config --list
+  288  git config --global --list
+  289  git staus
+  290  git status
+  291  git reset HEAD test_data.txt
+  292  git status
+  293  git rm --catch test_data.txt 
+  294  git rm --cached test_data.txt 
+  295  git status
+  296  git status
+  297  git add test_data.txt 
+  298  git status
+  299  git log
+  300  git status
+  301  git add test_data.txt 
+  302  git log
+  303  git clean
+  304  git clean -fd
+  305  git clean -df
+  306  git log
+  307  git checkout master
+  308  git branch
+  309  git log
+  310  git checkout branch master
+  311  git checkout master
+  312  git commit 6dfe192
+  313  git commit -a -m "333"
+  314  git checkout master
+  315  git status
+  316  git log
+  317  git branch
+  318  git branch --all
+  319  git branch develop
+  320  git branch --all
+  321  git branch
+  322  git checkout develop 
+  323  git status
+  324  git add .
+  325  git status
+  326  git commit -m "update file develop"
+  327  git status
+  328  git checkout master
+  330  git checkout develop 
+  332  git branch --all
+  333  git diff master
+  334  git branch
+  335  git checkout master
+  336  git diff master
+  337  git diff develop 
+  338  git merge develop 
+  340  git branch feature
+  341  git branch
+  342  git checkout feature 
+  344  git push -a origin master
+  345  git push --a origin master
+  346  git remote -v
+  347  git push origin master
+  348  git add remote myproject
+  349  git remote add origin https://github.com/lohkung/myproject
+  350  git config --all
+  351  git config
+  352  git config --global
+  353  git 
+  354  git config --global
+  355  git remort
+  356  git remote
+  357  git push origin master
+  358  git branch --all
+  359  git config --global
+  360  git branch --all
+  361  git config --global
+  362  git config --all
+  363  git remote add origin git@github.com:lohkung/myproject.git
+  364  git remote
+  365  git remote --all
+  366  git remote -v
+  367  git config -all
+  368  git config --global
+  369  git push orgin master
+  370  git push origin master
+  371  git remote 0v
+  372  git remote -v
+  373  git pull origin master
+  374  git checkout master
+  375  git status
+  376  git config --all
+  377  git status
+  378  git remote -v
+  379  git config
+  380  git --show-origin
+  381  git config--show-origin
+  382  git config --show-origin
+  383  git config
+  384  git status
+  385  git add -a
+  386  git add 
+  387  git add .
+  388  git status
+  389  git commit -a -m "by lohkung"
+  390  git push origin master
+  391  git status
+  392  git pull 
+  393  git pull origin master
+  394  git status
+  395  git commit -a -m "update lohkung"
+  396  git push origin master
+  397  git pull origin master
+  398  git push origin master
+  399  git pull origin master
+  400  git status
+  401  git diff MERGING
+  402  git diff
+  403  git diff
+  404  git status
+  405  git add .
+  406  git commit -a -m "merging"
+  407  git push origin master
+  408  git remote
+  409  git remote -v
+  410  git config -v
+  411  git branch
+  412  git remote
+  413  git config
+  414  git log
+  416  git config --list
+  417  git config --global --list
+  419  git config --global --list
+  420  git config --global
+  421  git config --list
+  422  git remote --delete backup
+  423  git remote
+  424  git remote remove lk
+  425  git remote
+  426  git config -l
+  427  git config
+  428  history|grep git
+  429  history|grep git command.txt
+  430  history|grep git > history.txt

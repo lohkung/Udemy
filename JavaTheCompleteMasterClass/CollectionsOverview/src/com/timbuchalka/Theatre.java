@@ -14,7 +14,11 @@ public class Theatre {
        
 
         int lastRow = 'A' + (numRows -1);
+        int x = 'A' + 0;
+        System.out.println("X : " + x);
+        System.out.println("lastRow: " + lastRow);
         for (char row = 'A'; row <= lastRow; row++) {
+        	System.out.println(">>>" + row);
             for(int seatNum = 1; seatNum <= seatsPerRow; seatNum++) {
                 Seat seat = new Seat(row + String.format("%02d", seatNum));
                 seats.add(seat);

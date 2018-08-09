@@ -55,8 +55,8 @@ public class RegisterAction extends ActionSupport{
 	public void setEmail(String email) {
 		this.email = email;
 	}
-
-	/*public void validate()
+	
+	public void validate()
 	{
 		if (firstName.equals("")) {
 	        addFieldError("firstName", "First name is required.");
@@ -81,6 +81,6 @@ public class RegisterAction extends ActionSupport{
 		if (email.equals("")) {
 	        addFieldError("email", "Email is required.");
 	    }
-	}*/
+	}
 
 }
